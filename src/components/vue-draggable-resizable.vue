@@ -257,6 +257,7 @@ export default {
 
     this.rawRight = this.parentWidth - this.rawWidth - this.rawLeft
     this.rawBottom = this.parentHeight - this.rawHeight - this.rawTop
+    console.log(2222)
 
     addEvent(document.documentElement, 'mousedown', this.deselect)
     addEvent(document.documentElement, 'touchend touchcancel', this.deselect)
